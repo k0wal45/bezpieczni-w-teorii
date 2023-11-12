@@ -33,42 +33,50 @@ const Navbar = () => {
       `}>
 
       <ul className='gap-8 pt-48 p-4 text-white text-start flex flex-col text-2xl font-codec-bold'>
-        <li onClick={() => {setActive('glowna')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
-          ${
-            active === 'glowna'
-            ? 'border-l-2 border-gray-500'
-            : ''
-          }
-        `}>
-          <a href="#glowna">Strona Główna</a>
-        </li>
-        <li onClick={() => {setActive('projekt')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
-          ${
-            active === 'projekt'
-            ? 'border-l-2 border-gray-500'
-            : ''
-          }
-        `}>
-          <a href="#projekt">Co to za projekt</a>
-        </li>
-        <li onClick={() => {setActive('kto')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
-          ${
-            active === 'kto'
-            ? 'border-l-2 border-gray-500'
-            : ''
-          }
-        `}>
-          <a href="#kto">Kto za tym stoi</a>
-        </li>
-        <li onClick={() => {setActive('partner')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
-          ${
-            active === 'partner'
-            ? 'border-l-2 border-gray-500'
-            : ''
-          }
-        `}>
-          <a href="#partnerzy">Partnerzy</a>
-        </li>
+        <a href="#glowna">
+          <li onClick={() => {setActive('glowna')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+            ${
+              active === 'glowna'
+              ? 'border-l-2 border-gray-500'
+              : ''
+            }
+          `}>
+            Strona Główna
+          </li>
+        </a>
+        <a href="#projekt">
+          <li onClick={() => {setActive('projekt')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+            ${
+              active === 'projekt'
+              ? 'border-l-2 border-gray-500'
+              : ''
+            }
+          `}>
+          Co to za projekt
+          </li>
+        </a>
+        <a href="#kto">
+          <li onClick={() => {setActive('kto')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+            ${
+              active === 'kto'
+              ? 'border-l-2 border-gray-500'
+              : ''
+            }
+          `}>
+          Kto za tym stoi
+          </li>
+        </a>
+        <a href="#partnerzy">
+          <li onClick={() => {setActive('partner')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+            ${
+              active === 'partner'
+              ? 'border-l-2 border-gray-500'
+              : ''
+            }
+          `}>
+          Partnerzy
+          </li>
+        </a>
         <li>
           <ul className="flex justify-center items-center gap-8">
             <li>
