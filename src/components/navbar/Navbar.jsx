@@ -48,12 +48,12 @@ const Navbar = () => {
         <li>
           <ul className="flex justify-center items-center gap-8">
             <li>
-              <a href="">
+              <a href="#glowna">
                 <FontAwesomeIcon icon={faFacebook} className='text-white text-3xl hover:text-primary'/>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="#glowna">
                 <FontAwesomeIcon icon={faInstagram} className='text-white text-3xl hover:text-primary'/>
               </a>
             </li>
