@@ -20,3 +20,15 @@
 	}
 	
 }
+
+.bg-photo {
+	background: url(./assets/img/bg.webp) fixed center center/cover;
+}
+
+.bg-base {
+	background: url(./assets/img/bg2.webp) fixed center center/cover;
+}
+
+.bg-phone {
+	background: url(./assets/img/bgPhone.webp) fixed center center/cover;
+}
