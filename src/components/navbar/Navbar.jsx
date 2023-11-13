@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center px-4 lg:px-8 py-4 bg-base-100 shadow-lg fixed w-full'>
       <div className="flex gap-8 items-center justify-center">
-        <img src={logo} alt="Logo Oktech" className='w-24'/>
+        <img src={logo} alt="Logo Bezpieczni W Teorii" className='w-24'/>
         <h2 className='text-4xl font-codec-bold text-white translate-y-2 hidden lg:block'>Bezpieczni W Teorii</h2>
       </div>
 
@@ -80,12 +80,12 @@ const Navbar = () => {
         <li>
           <ul className="flex justify-center items-center gap-8">
             <li>
-              <a href="#glowna">
+              <a href="#glowna" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faFacebook} className='text-white text-3xl hover:text-primary'/>
               </a>
             </li>
             <li>
-              <a href="#glowna">
+              <a href="#glowna" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faInstagram} className='text-white text-3xl hover:text-primary'/>
               </a>
             </li>

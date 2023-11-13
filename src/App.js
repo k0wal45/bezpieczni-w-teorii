@@ -7,7 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <main className="bg-base">
+    <main className="bg-base max-w-screen overflow-x-hidden">
       <Navbar />
       <Hero />
       <Projekt />
