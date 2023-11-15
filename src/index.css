@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body, html {
-	@apply scroll-smooth
+	@apply scroll-smooth 
 }
 
 @layer base {
@@ -31,4 +31,8 @@ body, html {
 
 .bg-base {
 	background: url(./assets/img/bg2.webp) fixed center center/cover;
+}
+
+.bg-phone {
+	background: url(./assets/img/bgPhone.webp) fixed center center/cover;
 }

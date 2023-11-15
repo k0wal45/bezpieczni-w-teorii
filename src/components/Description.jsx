@@ -1,8 +1,18 @@
 import photo from "../assets/img/description.webp"
+import { InView } from 'react-intersection-observer';
+import { useDispatch } from 'react-redux'
+import {set} from '../slice'
+
 
 const Description = () => {
+  const dispatch = useDispatch()
+
   return (
-    <section className='flex flex-col items-start justify-center p-4 my-24'>
+    <InView as='section' className='flex flex-col items-start justify-center p-4 my-24' onChange={(inView) => {
+      if (inView) {
+        dispatch(set('projekt'))
+      }
+    }}>
       <div className="flex flex-col ml-[10vw] gap-2">
         <h3 className="text-4xl lg:text-6xl font-codec-bold text-white">Opis projektu</h3>
         <div className="w-3/5 border-2 border-white"></div>
@@ -16,7 +26,7 @@ const Description = () => {
         <img src={photo} alt="" className="w-full lg:max-w-[30vw] rounded-xl" />
       </div>
 
-    </section>
+    </InView>
   )
 }
 

@@ -1,12 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../../assets/img/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import './hamburger.css'
+import { useSelector } from 'react-redux'
+
 
 const Navbar = () => {
+  const position = useSelector((state) => state.counter.value)
+
   const [visible, setVisible] = useState(false)
-  const [active, setActive] = useState('glowna')
+  const [active, setActive] = useState(position)
+
+  useEffect(() => {
+    setActive(position)
+  }, [position])
 
 
   return (
@@ -34,7 +42,7 @@ const Navbar = () => {
 
       <ul className='gap-8 pt-48 p-4 text-white text-start flex flex-col text-2xl font-codec-bold'>
         <a href="#glowna">
-          <li onClick={() => {setActive('glowna')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+          <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
             ${
               active === 'glowna'
               ? 'border-l-2 border-gray-500'
@@ -45,7 +53,7 @@ const Navbar = () => {
           </li>
         </a>
         <a href="#projekt">
-          <li onClick={() => {setActive('projekt')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+          <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
             ${
               active === 'projekt'
               ? 'border-l-2 border-gray-500'
@@ -56,7 +64,7 @@ const Navbar = () => {
           </li>
         </a>
         <a href="#kto">
-          <li onClick={() => {setActive('kto')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+          <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
             ${
               active === 'kto'
               ? 'border-l-2 border-gray-500'
@@ -67,7 +75,7 @@ const Navbar = () => {
           </li>
         </a>
         <a href="#partnerzy">
-          <li onClick={() => {setActive('partner')}} className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+          <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
             ${
               active === 'partner'
               ? 'border-l-2 border-gray-500'
