@@ -45,7 +45,7 @@ const Kto = () => {
               <a href="mailto:d.kowal.com@gmail.com" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faSquareEnvelope} className='text-white text-3xl hover:text-primary'/>
               </a>
-              <a href="https://d-kowalski.netlify.app/" target='_blank' rel="noreferrer">
+              <a href="https://daniel-kowalski.com" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faGlobe} className='text-white text-3xl hover:text-primary'/>
               </a>
             </div>

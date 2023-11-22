@@ -18,12 +18,11 @@ const Navbar = () => {
 
 
   return (
-    <nav className='flex justify-between items-center px-4 lg:px-8 py-4 bg-base-100 shadow-lg fixed w-full'>
+    <nav className='flex justify-between items-center px-4 lg:px-8 py-4 bg-base-100 shadow-lg fixed w-full max-w-screen'>
       <div className="flex gap-8 items-center justify-center">
         <img src={logo} alt="Logo Bezpieczni W Teorii" className='w-24'/>
         <h2 className='text-4xl font-codec-bold text-white translate-y-2 hidden lg:block'>Bezpieczni W Teorii</h2>
       </div>
-
 
         <label className='flex z-50'>
           <input type="checkbox" id="check" onClick={(e) => {e.target.checked ? setVisible(true) : setVisible(false)}}/> 
