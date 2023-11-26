@@ -15,7 +15,7 @@ const List = () => {
       
         <h5 className="font-codec-bold text-4xl lg:text-6xl text-white">Bezpieczeństwo w Erze Cyfrowej</h5>
 
-        <p className="text-xl font-codec text-jusstify lg:text-center lg:max-w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, iusto veritatis tempora voluptate et reprehenderit facere nulla suscipit esse. Corrupti?</p>
+        <p className="text-xl text-jusstify lg:text-center ">W erze cyfrowej kluczowe jest bezpieczeństwo danych online, chroniące przed utratą, kradzieżą i nieautoryzowanym dostępem. Ochrona prywatności i integralności danych wymaga skutecznej cyberbezpieczeństwa.</p>
 
         <div className="flex flex-col-reverse lg:flex-row-reverse items-center justify-center gap-8 text-white">
 
@@ -24,28 +24,28 @@ const List = () => {
               <FontAwesomeIcon icon={faBug} className='text-primary text-3xl hover:text-primary'/>
               <div className="flex flex-col gap-4">
                 <h6 className="text-2xl font-codec-bold">Wzrost Cyberataków</h6>
-                <p className="font-codec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repudiandae aspernatur, maxime mollitia dolorem explicabo?</p>
+                <p>Wzrost cyberataków wynika z rosnącej zależności od technologii i internetu, wymagając zdecydowanego wzmocnienia środków bezpieczeństwa i globalnej współpracy.</p>
               </div>
             </li>
             <li className="flex gap-4">
               <FontAwesomeIcon icon={faFile} className='text-primary text-3xl hover:text-primary'/>
               <div className="flex flex-col gap-4">
                 <h6 className="text-2xl font-codec-bold">Utrata danych i prywatności.</h6>
-                <p className="font-codec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repudiandae aspernatur, maxime mollitia dolorem explicabo?</p>
+                <p>Utrata danych i prywatności to nieodwracalna utrata informacji cyfrowych, wymagająca skutecznych środków ochrony przed atakami hakerskimi i naruszeniem prywatności.</p>
               </div>
             </li>
             <li className="flex gap-4">
               <FontAwesomeIcon icon={faEarth} className='text-primary text-3xl hover:text-primary'/>
               <div className="flex flex-col gap-4">
                 <h6 className="text-2xl font-codec-bold">Wpływ na firmy i instytucje</h6>
-                <p className="font-codec">Brak wysoko wykwalifikowanych specjalistów od cyberbezpieczeństwa wpływa na nie negatywnie.</p>
+                <p>Brak wysoko wykwalifikowanych specjalistów od cyberbezpieczeństwa negatywnie wpływa na zdolność organizacji do skutecznego zabezpieczania się przed zagrożeniami cybernetycznymi.</p>
               </div>
             </li>
             <li className="flex gap-4">
               <FontAwesomeIcon icon={faGears} className='text-primary text-3xl hover:text-primary'/>
               <div className="flex flex-col gap-4">
                 <h6 className="text-2xl font-codec-bold">Wysoki popyt na specjalistów</h6>
-                <p className="font-codec">W miarę jak rosną zagrożenia cybernetyczne, popyt na specjalistów od cyberbezpieczeństwa stale rośnie. Jednak brak wystarczającej liczby wykwalifikowanych ekspertów sprawia, że wiele firm i instytucji ma trudności z zabezpieczeniem swoich systemów przed atakami.</p>
+                <p>Zagrożenia cybernetyczne rosną, co zwiększa popyt na specjalistów od cyberbezpieczeństwa. Jednak brak wykwalifikowanych ekspertów utrudnia firmom i instytucjom zabezpieczanie systemów przed atakami.</p>
               </div>
             </li>
           </ul>

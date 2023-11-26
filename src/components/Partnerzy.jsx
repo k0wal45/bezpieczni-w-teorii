@@ -23,6 +23,10 @@ const Partnerzy = () => {
           <img src={ing} alt="ING logo" className='h-32'/>
         </li>
       </ul>
+
+      <p className="text-xl font-codec-bold text-gray-400 text-center mx-auto">Zapraszamy do współpracy partnerów, którzy podzielają nasze zobowiązanie do kształcenia nowej generacji specjalistów w dziedzinie cyberbezpieczeństwa.</p>
+      <p className="text-xl font-bold text-gray-400 text-center mx-auto">+48 508 374 625 / artur.rudzik@o2.pl</p>
+
       
     </InView>
   )
