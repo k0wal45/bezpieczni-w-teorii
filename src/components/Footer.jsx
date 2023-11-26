@@ -10,7 +10,7 @@ function Footer() {
         <p>Copyright © {year} - All right reserved</p>
       </div> 
       <section>
-        <p>Created by: <a target="_blank" href="https://lunarisweb.pl/" className="underline" rel="noreferrer">Lunaris Web</a></p>
+        <p>Created by: <a target="_blank" href="https://daniel-kowalski.com" className="underline" rel="noreferrer">Daniel Kowalski</a></p>
       </section> 
     </footer>
 
