@@ -1,7 +1,9 @@
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Kto from "./components/Kto";
+import Milestones from "./components/Milestones";
 import Partnerzy from "./components/Partnerzy";
+import Program from "./components/Program";
 import Projekt from "./components/Projekt";
 import Navbar from "./components/navbar/Navbar";
 
@@ -11,7 +13,9 @@ function App() {
       <Navbar />
       <Hero />
       <Projekt />
+      <Program />
       <Kto />
+      <Milestones />
       <Partnerzy />
       <Footer />
     </main>

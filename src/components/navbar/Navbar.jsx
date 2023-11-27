@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='flex justify-between items-center px-4 lg:px-8 py-4 bg-base-100 shadow-lg fixed w-full max-w-screen'>
+    <nav className='flex justify-between items-center px-4 lg:px-8 py-4 bg-base-100 shadow-lg fixed w-full max-w-screen z-30'>
       <div className="flex gap-8 items-center justify-center">
         <img src={logo} alt="Logo Bezpieczni W Teorii" className='w-24'/>
         <h2 className='text-4xl font-codec-bold text-white translate-y-2 hidden lg:block'>Bezpieczni W Teorii</h2>
@@ -39,7 +39,7 @@ const Navbar = () => {
         }
       `}>
 
-      <ul className='gap-8 pt-48 p-4 text-white text-start flex flex-col text-2xl font-codec-bold'>
+      <ul className='gap-8 pt-48 p-4 text-white text-start flex flex-col text-2xl font-codec-bold z-40'>
         <a href="#glowna">
           <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
             ${
@@ -62,6 +62,17 @@ const Navbar = () => {
           Co to za projekt
           </li>
         </a>
+        <a href="#program">
+          <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+            ${
+              active === 'program'
+              ? 'border-l-2 border-gray-500'
+              : ''
+            }
+          `}>
+          Program projektu
+          </li>
+        </a>
         <a href="#kto">
           <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
             ${
@@ -71,6 +82,17 @@ const Navbar = () => {
             }
           `}>
           Kto za tym stoi
+          </li>
+        </a>
+        <a href="#kamienmilowy">
+          <li className={`py-2 px-4 pr-8 border-b-2 border-base-100 hover:text-primary rounded-bl-xl
+            ${
+              active === 'mila'
+              ? 'border-l-2 border-gray-500'
+              : ''
+            }
+          `}>
+          Progres projektu
           </li>
         </a>
         <a href="#partnerzy">
