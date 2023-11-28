@@ -23,17 +23,17 @@ const Program = () => {
         <ProgramCard
           title='Szkolenia Cyberbezpieczeństwa'
           img={faShieldHalved}
-          text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit natus accusantium rem sunt obcaecati in maxime eius consequatur, quo excepturi.'
+          text='Zorganizujemy kompleksowe szkolenia z zakresu cyberbezpieczeństwa dla uczniów ZSTiO nr 2, obejmujące zarówno podstawowe aspekty, jak i zaawansowane techniki ochrony przed cyberatakami.'
         />
         <ProgramCard
           title='Wykłady Specjalistów i Przedstawicieli Firm'
           img={faHandshake}
-          text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit natus accusantium rem sunt obcaecati in maxime eius consequatur, quo excepturi.'
+          text='Zapewnimy dostęp do wykładów prowadzonych przez doświadczonych specjalistów oraz przedstawicieli firm branżowych, umożliwiając uczestnikom pozyskanie aktualnej wiedzy i perspektywy z rynku pracy.'
         />
         <ProgramCard
           title='Zakup pomocy edukacyjnych Wirtualnej Rzeczywistości'
           img={faVrCardboard}
-          text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit natus accusantium rem sunt obcaecati in maxime eius consequatur, quo excepturi.'
+          text='Inwestujemy w narzędzia Wirtualnej Rzeczywistości (VR) w celu dostarczenia praktycznych doświadczeń oraz możliwości, skuteczniejszego przyswajania kluczowych koncepcji z obszaru cyberbezpieczeństwa. Dając również dostęp do tej technologii klasom Technik Programista'
         />
       </div>
       
