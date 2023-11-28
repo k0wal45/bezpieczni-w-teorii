@@ -1,4 +1,5 @@
 import ing from '../assets/img/ing.webp'
+import zwolnieni from '../assets/img/zwolnieni-z-teorii.webp'
 
 import { InView } from "react-intersection-observer"
 import { useDispatch } from "react-redux"
@@ -21,6 +22,9 @@ const Partnerzy = () => {
       <ul className="w-full lg:max-w-2/3 flex flex-wrap items-center justify-center gap-8 mx-auto">
         <li>
           <img src={ing} alt="ING logo" className='h-32'/>
+        </li>
+        <li>
+          <img src={zwolnieni} alt="Projekt realizowany w ramach zwolnieni z teorii" className='h-32'/>
         </li>
       </ul>
 
