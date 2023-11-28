@@ -15,7 +15,7 @@ const Hero = () => {
     }}>
       <div className="flex flex-col justify-center items-start lg:max-w-[40vw] lg:pt-4 p-4 gap-8">  
         <h1 className="text-4xl lg:text-6xl font-codec-bold  text-white">Świadomość i Specjaliści to klucz do bezpieczeństwa</h1>
-        <p className="text-xl font-codec text-gray-300">Nasze szkolenia pozwolą naszym uczniom w codziennych korzystaniu z technologii</p>
+        <p className="text-xl font-codec text-gray-300">Nasze szkolenia pozwolą naszym uczniom w codziennym korzystaniu z technologii</p>
       </div>
       <img src={titleImg} alt="Laptop Bezpiecznie" className="w-[80vw] lg:max-w-[40vw] lg:w-full"/>
     </InView>
