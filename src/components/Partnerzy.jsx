@@ -27,6 +27,7 @@ const Partnerzy = () => {
           <img src={zwolnieni} alt="Projekt realizowany w ramach zwolnieni z teorii" className='h-32'/>
         </li>
       </ul> */}
+      
       <img src={plansza} alt="Projekt realizowany w ramach olimpiady Zwolnieni z Teorii i programu Krok do przodu, którego partnerami są ING Bank Śląski i Fundacja ING Dzieciom " className='w-full lg:w-2/3 mx-auto rounded-lg'/>
 
       <p className="text-xl font-codec-bold text-gray-400 text-center mx-auto">Zapraszamy do współpracy partnerów, którzy podzielają nasze zobowiązanie do kształcenia nowej generacji specjalistów w dziedzinie cyberbezpieczeństwa.</p>
