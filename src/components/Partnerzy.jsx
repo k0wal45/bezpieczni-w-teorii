@@ -1,9 +1,10 @@
-
 import plansza from '../assets/img/plansza.png'
 
 import { InView } from "react-intersection-observer"
 import { useDispatch } from "react-redux"
 import {set} from '../slice'
+
+import kyndryl from '../assets/img/kyndryl.webp'
 
 const Partnerzy = () => {
   const dispatch = useDispatch()
@@ -19,17 +20,14 @@ const Partnerzy = () => {
         <div className="w-3/5 border-2 border-white"></div>
       </div>
 
-      {/* <ul className="w-full lg:max-w-2/3 flex flex-wrap items-center justify-center gap-8 mx-auto">
-        <li>
-          <img src={ing} alt="ING logo" className='h-32'/>
-        </li>
-        <li>
-          <img src={zwolnieni} alt="Projekt realizowany w ramach zwolnieni z teorii" className='h-32'/>
-        </li>
-      </ul> */}
-      
       <img src={plansza} alt="Projekt realizowany w ramach olimpiady Zwolnieni z Teorii i programu Krok do przodu, którego partnerami są ING Bank Śląski i Fundacja ING Dzieciom " className='w-full lg:w-2/3 mx-auto rounded-lg'/>
 
+      <ul className="w-full lg:max-w-2/3 flex flex-wrap items-center justify-center gap-8 mx-auto">
+        <li>
+          <img src={kyndryl} alt="kyndryl logo" className='h-32'/>
+        </li>
+      </ul>
+      
       <p className="text-xl font-codec-bold text-gray-400 text-center mx-auto">Zapraszamy do współpracy partnerów, którzy podzielają nasze zobowiązanie do kształcenia nowej generacji specjalistów w dziedzinie cyberbezpieczeństwa.</p>
       <p className="text-xl font-bold text-gray-400 text-center mx-auto">+48 508 374 625 / bezpieczniwteorii@gmail.com</p>
 
