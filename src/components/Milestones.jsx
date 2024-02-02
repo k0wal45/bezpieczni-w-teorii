@@ -21,7 +21,7 @@ const Milestones = () => {
       <div className="flex lg:flex-col w-full">
         <ul class="steps steps-vertical lg:steps-horizontal mx-auto w-min lg:w-full z-20">
           <li class="step step-primary"></li>
-          <li class="step"></li>
+          <li class="step step-primary"></li>
           <li class="step"></li>
           <li class="step"></li>
           <li class="step"></li>
