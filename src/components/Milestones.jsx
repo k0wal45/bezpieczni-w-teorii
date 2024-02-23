@@ -22,8 +22,8 @@ const Milestones = () => {
         <ul class="steps steps-vertical lg:steps-horizontal mx-auto w-min lg:w-full z-20">
           <li class="step step-primary"></li>
           <li class="step step-primary"></li>
-          <li class="step"></li>
-          <li class="step"></li>
+          <li class="step step-primary"></li>
+          <li class="step step-primary"></li>
           <li class="step"></li>
         </ul>
 
@@ -36,10 +36,7 @@ const Milestones = () => {
             title='Rozpoczęcie Współpracy z Partnerami'
             list={['Nawiązanie współpracy z partnerami, takimi jak szkoły, instytucje edukacyjne czy eksperci ds. cyberbezpieczeństwa.','Podpisanie umów i ustalenie roli partnerów w projekcie.']}
           />
-          <MilestoneCard 
-            title='Pozyskanie Środków na Realizację Projektu'
-            list={['Opracowanie planu pozyskania środków finansowych na realizację szkoleń.','Wyszukiwanie grantów, sponsorów lub innych źródeł finansowania.']}
-          />
+          
           <MilestoneCard 
             title='Zaplanowanie Treści Szkoleń'
             list={['Opracowanie planu szkoleń, obejmującego kluczowe tematy z zakresu cyberbezpieczeństwa.','Ustalenie formy przekazu informacji, materiałów dydaktycznych i interaktywnych elementów szkoleń.']}
@@ -47,6 +44,10 @@ const Milestones = () => {
           <MilestoneCard 
             title='Realizacja Szkoleń'
             list={['Przeprowadzenie planowanych szkoleń zgodnie z ustalonymi terminami i treściami.','Monitorowanie i ewaluacja procesu szkoleniowego, zbieranie opinii uczestników oraz dostosowywanie programu, jeśli to konieczne.']}
+          />
+          <MilestoneCard 
+            title='Pozyskanie Środków na Realizację Projektu'
+            list={['Opracowanie planu pozyskania środków finansowych na realizację szkoleń.','Wyszukiwanie grantów, sponsorów lub innych źródeł finansowania.']}
           />
         </div>
       </div>

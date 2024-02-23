@@ -34,6 +34,7 @@ const Kto = () => {
               <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Grafika</li>
               <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Strona Internetowa</li>
               <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Social Media</li>
+              <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Marketing</li>
             </ul>
             <div className="flex gap-4 justify-center">
               <a href="https://www.linkedin.com/in/daniel-kowalski-17566a278/" target='_blank' rel="noreferrer" >
@@ -57,8 +58,9 @@ const Kto = () => {
           <div className="flex flex-col gap-4 p-4">
             <h6 className="text-2xl font-codec-bold">Artur Rudzik</h6>
             <ul className="flex gap-4 flex-wrap max-w-full">
-              <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Prowadzenie i Treść Szkoleń</li>
               <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Pomysłodawca projektu</li>
+              <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Szkolenie</li>
+              <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Kontakt z firmami</li>
             </ul>
             <div className="flex gap-4 justify-center">
               <a href="https://www.linkedin.com/in/artur-rudzik/" target='_blank' rel="noreferrer" >
@@ -84,11 +86,9 @@ const Kto = () => {
 
             </ul>
             <div className="flex gap-4 justify-center">
-              <a href="https://www.linkedin.com/in/artur-rudzik/" target='_blank' rel="noreferrer" >
-                <FontAwesomeIcon icon={faLinkedin} className='text-white text-3xl hover:text-primary'/>
-              </a>
+            
 
-              <a href="#kto" target='_blank' rel="noreferrer">
+              <a href="mailto:kmachowski04@gmail.com" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faSquareEnvelope} className='text-white text-3xl hover:text-primary'/>
               </a>
 

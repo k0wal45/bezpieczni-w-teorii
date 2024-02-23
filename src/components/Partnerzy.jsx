@@ -5,6 +5,8 @@ import { useDispatch } from "react-redux"
 import {set} from '../slice'
 
 import kyndryl from '../assets/img/kyndryl.webp'
+import emag from '../assets/img/emag.webp'
+import maliCzarodzieje from '../assets/img/czarodzieje.webp'
 
 const Partnerzy = () => {
   const dispatch = useDispatch()
@@ -24,7 +26,13 @@ const Partnerzy = () => {
 
       <ul className="w-full lg:max-w-2/3 flex flex-wrap items-center justify-center gap-8 mx-auto">
         <li>
-          <img src={kyndryl} alt="kyndryl logo" className='h-32'/>
+          <img src={kyndryl} alt="kyndryl logo" className='max-h-32 object-contain'/>
+        </li>
+        <li>
+          <img src={emag} alt="Emag logo" className='max-h-32 rounded-[1.5rem]'/>
+        </li>
+        <li>
+          <img src={maliCzarodzieje} alt="Mali Czarodzieje logo" className='max-h-32 rounded-[1.5rem] object-contain'/>
         </li>
       </ul>
       

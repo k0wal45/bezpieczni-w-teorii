@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import Fundraising from "./components/Fundraising";
 import Hero from "./components/Hero";
 import Kto from "./components/Kto";
 import Milestones from "./components/Milestones";
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <Projekt />
+      <Fundraising />
       <Program />
       <Kto />
       <Milestones />
