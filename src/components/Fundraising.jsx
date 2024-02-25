@@ -21,7 +21,7 @@ const Fundraising = () => {
     <div className="w-full bg-base-200 py-12 flex flex-col lg:flex-row justify-center items-center gap-12 p-4">
     <div className="relative w-full max-w-[30rem] h-[500px] overflow-hidden">
       <iframe title="zbiorka" className="absolute top-0 left-p bottom-0 right-0 w-full h-full" src="https://zrzutka.pl/fsewtx/widget/13" frameborder="0" scrolling="no"></iframe>
-      </div>
+      </div> 
       <div className="lg:max-w-[33%] flex flex-col gap-4">
         <h5 className="text-3xl lg:text-5xl font-codec-bold text-white">Pomóż nam zebrać fundusze na edukacje w naszej szkole</h5>
         <p className="text-xl">Chcemy zapewnić naszym uczniom unikalne doświadczenia edukacyjne poprzez zakup okularów wirtualnej rzeczywistości (VR). Te innowacyjne narzędzia umożliwią przekazywanie wiedzy z zakresu cyberbezpieczeństwa w fascynujący sposób. Wspierając naszą zbiórkę, pomagasz nam nie tylko zdobyć okulary VR, ale również otrzymać oprogramowanie do nauki jako wyjątkowy prezent od naszego partnera. Dajmy razem szansę na rozwój i lepsze zrozumienie dzisiejszych wyzwań cyfrowego świata!</p>
