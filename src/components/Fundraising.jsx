@@ -2,7 +2,6 @@ import { InView } from "react-intersection-observer"
 import { useDispatch } from "react-redux"
 import { set } from "../slice"
 
-import photo from '../assets/img/vr.webp' 
 
 const Fundraising = () => {
 
@@ -21,7 +20,7 @@ const Fundraising = () => {
 
     <div className="w-full bg-base-200 py-12 flex flex-col lg:flex-row justify-center items-center gap-12 p-4">
     <div className="relative w-full max-w-[30rem] h-[500px] overflow-hidden">
-      <iframe className="absolute top-0 left-p bottom-0 right-0 w-full h-full" src="https://zrzutka.pl/fsewtx/widget/13" frameborder="0" scrolling="no"></iframe>
+      <iframe title="zbiorka" className="absolute top-0 left-p bottom-0 right-0 w-full h-full" src="https://zrzutka.pl/fsewtx/widget/13" frameborder="0" scrolling="no"></iframe>
       </div>
       <div className="lg:max-w-[33%] flex flex-col gap-4">
         <h5 className="text-3xl lg:text-5xl font-codec-bold text-white">Pomóż nam zebrać fundusze na edukacje w naszej szkole</h5>
