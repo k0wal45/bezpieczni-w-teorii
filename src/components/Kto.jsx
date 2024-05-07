@@ -37,7 +37,7 @@ const Kto = () => {
               <li className="rounded-full px-4 py-[3px] bg-white text-black font-codec">Marketing</li>
             </ul>
             <div className="flex gap-4 justify-center">
-              <a href="https://www.linkedin.com/in/daniel-kowalski-17566a278/" target='_blank' rel="noreferrer" >
+              <a href="https://www.linkedin.com/in/daniel-kowalski-com/" target='_blank' rel="noreferrer" >
                 <FontAwesomeIcon icon={faLinkedin} className='text-white text-3xl hover:text-primary'/>
               </a>
               <a href="https://github.com/k0wal45" target='_blank' rel="noreferrer">
