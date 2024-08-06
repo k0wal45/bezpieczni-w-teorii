@@ -1,3 +1,11 @@
+## Project about cybersecurity
+
+"Bezpieczni w Teorii" is a cybersecurity initiative led by three 19-year-olds in Katowice, Poland. As part of the "Zwolnieni z Teorii" Olympiad, they organize impactful training sessions at schools in Katowice, featuring speakers from ING Bank Śląski, Kyndryl, and other tech companies. Throughout the project, we've been featured on national television shows and had the opportunity to meet with professionals in the IT field.
+
+# About Website
+
+This website is small landing page about my past project "Bezpieczni w teorii" it have some UI features like changing navbar as we scroll but overall it has simple design just to showcase our work and what we've acomplished
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
