@@ -24,7 +24,7 @@ const Milestones = () => {
           <li class="step step-primary"></li>
           <li class="step step-primary"></li>
           <li class="step step-primary"></li>
-          <li class="step"></li>
+          <li class="step step-primary"></li>
         </ul>
 
         <div className="grid grid-rows-5 lg:grid-rows-1 lg:grid-cols-5 w-full gap-8">
